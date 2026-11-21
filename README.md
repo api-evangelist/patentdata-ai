@@ -1,4 +1,4 @@
-# patentdata-ai
+# Patent Data
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,118 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-patentdata-ai is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://patentdata.ai/
+Patent Data provides comprehensive US patent data for AI agents, including application status, office actions, ownership details, PTAB proceedings, and maintenance information for every US patent application since 2001. The platform offers searchable, structured data to enable developers to integrate patent insights into AI-driven tools and analytics.
+
+**Areas:** Patent · Data · AI · US · Technology
+
+## Patent Data on APIs.io
+
+Everything profiled for Patent Data is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/patentdata-ai/](https://apis.io/providers/patentdata-ai/)** — or go straight to one of the APIs or properties below.
+
+### APIs (4)
+
+- [Patent Data Billing API](https://apis.io/apis/patentdata-ai/patentdata-ai-billing-api/) — The billing API from Patent Data — 5 operation(s) for billing.
+- [Patent Data Meta API](https://apis.io/apis/patentdata-ai/patentdata-ai-meta-api/) — Health and discovery documents.
+- [Patent Data Monitors API](https://apis.io/apis/patentdata-ai/patentdata-ai-monitors-api/) — The monitors API from Patent Data — 3 operation(s) for monitors.
+- [Patent Data patent status API](https://apis.io/apis/patentdata-ai/patentdata-ai-patent-status-api/) — Application status, timelines, ownership, PTAB, maintenance, entities.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Patent Data Agentic Access](https://apis.io/agentic-access/patentdata-ai/patentdata-ai-agentic-access/)
+
+#### JSON Schema (5)
+
+The data models the API reads and writes.
+
+- [CheckoutIn](https://apis.io/schemas/patentdata-ai/patentdata-ai-checkout-in/)
+- [KeyIn](https://apis.io/schemas/patentdata-ai/patentdata-ai-key-in/)
+- [MonitorIn](https://apis.io/schemas/patentdata-ai/patentdata-ai-monitor-in/)
+- [SignupIn](https://apis.io/schemas/patentdata-ai/patentdata-ai-signup-in/)
+- [StatusBatchIn](https://apis.io/schemas/patentdata-ai/patentdata-ai-status-batch-in/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Patentdata Ai Context](https://apis.io/jsonld/patentdata-ai/patentdata-ai-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Patent Data API Rules](https://apis.io/rules/patentdata-ai/patentdata-ai-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Patent Data Authentication](https://apis.io/security/patentdata-ai/patentdata-ai-authentication/)
+- [Patent Data Domain Security](https://apis.io/security/patentdata-ai/patentdata-ai-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://patentdata.ai/)
+
+## API Evangelist rating
+
+**Kin Score 34.6** — thin · rubric 0.27.0 · scored 2026-11-20
+
+| Facet | Score |
+|---|---|
+| Discoverability | 62.5 |
+| Contract quality | 56.6 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 23.1 |
+| Access clarity | 0.0 |
+
+**Agent readiness 35.4** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 15.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/patentdata-ai/](https://apis.io/providers/patentdata-ai/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Patent Data: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/patentdata-ai/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
